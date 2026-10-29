@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 运行时产物：数据库、评测结果、面板
+data/*.db
+data/*.json
+data/*.jsonl
+data/*.html
+
+# 内部工具（含脱敏审计脚本，不公开）
+_audit.py
+
+# 编辑器 / 系统
+.DS_Store
+.idea/
+.vscode/
