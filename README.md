@@ -1,5 +1,9 @@
 # agent-memory-demo · 带遗忘、强化、冲突消解与可观测性的 Agent 长期记忆层
 
+[![tests](https://github.com/cao290/agent-memory-demo/actions/workflows/tests.yml/badge.svg)](https://github.com/cao290/agent-memory-demo/actions/workflows/tests.yml)
+![python](https://img.shields.io/badge/python-3.10%2B-blue)
+![license](https://img.shields.io/badge/license-MIT-green)
+
 > 一个最小可用的 Agent 长期记忆系统。**零重依赖**——默认只用 `numpy` + `jieba` + 标准库
 > (SQLite)，任何机器 clone 下来离线即可复现全部数字。含自绘可观测性面板，
 > 以及一个**可选**语义嵌入后端（ONNX，凭 onnxruntime 即可，无需 PyTorch，失败自动降级）。
